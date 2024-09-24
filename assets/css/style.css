@@ -4,6 +4,10 @@
 }
 
 #projects {
+    background-color: #fff;
+}
+
+#contact {
     background-color: #e2edff;
 }
 
@@ -11,26 +15,26 @@ section {
     padding-top: 6rem;
 }
 
-.content h1 {
-    font-size: clamp(1rem, 1rem + 5vw, 1.8rem);
+.jumbotron div h1 {
+    font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
 }
 
-.content h1 span {
+.jumbotron h1 span {
     color: #077b32;
     text-shadow: 0 0 10px #077b32;
 }
 
-.content .typewriter {
+.jumbotron .typewriter {
     font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
     font-weight: 600;
 }
 
-.content .typewriter-text {
+.jumbotron .typewriter-text {
     color: #077b32;
     text-shadow: 0 0 10px #077b32;
 }
 
-.content p {
+.jumbotron p {
     font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
     margin: 10px 0;
 }
@@ -55,27 +59,4 @@ section {
     color: black;
     background-color: #077b32;
     filter: drop-shadow(0 0 10px #077b32);
-}
-
-.content button {
-    width: 50%;
-    height: 6vh;
-    margin: 30px;
-    background-color: #077b32;
-    color: white;
-    border: none;
-    outline: none;
-    font-size: 120%;
-    font-weight: 700;
-    border-radius: 5px;
-    transition: 0.2s linear;
-}
-
-.content button:hover {
-    scale: 1.1;
-    color: #077b32;
-    border: 2px solid #077b32;
-    background-color: transparent;
-    font-weight: 700;
-    box-shadow: 0 0 40px #077b32;
 }

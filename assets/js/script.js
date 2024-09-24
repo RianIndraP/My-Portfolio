@@ -1,9 +1,9 @@
 // Typewriter Effect
 
 const texts = [
-    "PELAJAR",
-    "DESIGNER",
-    "YOUTUBER"
+    "STUDENT",
+    "FRONTEND",
+    "WEB DEVELOPER"
 ]
 
 let speed = 100;
