@@ -38,7 +38,8 @@ section {
     font-size: clamp(0.4rem, 0.2rem + 9vw, 1rem);
     margin: 10px 0;
 }
-.jumbotron img{
+
+.jumbotron img {
     box-shadow: 0 0 50px #077b32;
     border-radius: 100%;
 }
