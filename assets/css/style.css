@@ -1,6 +1,11 @@
+.navbar {
+    background-color: #0d1821;
+    color: #e9f0f8;
+}
+
 .jumbotron {
     padding-top: 9rem;
-    background-color: #e2edff;
+    background-color: #7d92ad;
 }
 
 #projects {
