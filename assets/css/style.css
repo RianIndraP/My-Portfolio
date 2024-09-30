@@ -1,3 +1,7 @@
+body{
+    color: #e9f0f8;
+    background-color: #b4cded;
+}
 .navbar {
     background-color: #0d1821;
     color: #e9f0f8;
@@ -5,11 +9,11 @@
 
 .jumbotron {
     padding-top: 9rem;
-    background-color: #7d92ad;
+    background-color: #344966;
 }
 
 #projects {
-    background-color: #fff;
+    background-color: #b4cded;
 }
 
 #contact {
@@ -24,19 +28,14 @@ section {
     font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
 }
 
-.jumbotron h1 span {
-    color: #077b32;
-    text-shadow: 0 0 10px #077b32;
-}
-
 .jumbotron .typewriter {
     font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
     font-weight: 600;
 }
 
 .jumbotron .typewriter-text {
-    color: #077b32;
-    text-shadow: 0 0 10px #077b32;
+    color: #b4cded;
+    text-shadow: 0 0 10px #0d1821;
 }
 
 .jumbotron p {
@@ -45,7 +44,7 @@ section {
 }
 
 .jumbotron img {
-    box-shadow: 0 0 50px #077b32;
+    box-shadow: 0 0 50px #0d1821;
     border-radius: 100%;
 }
 
@@ -56,9 +55,9 @@ section {
     width: 3rem;
     height: 3rem;
     background-color: transparent;
-    border: 0.2rem solid #077b32;
+    border: 0.2rem solid #b4cded;
     border-radius: 50%;
-    color: #077b32;
+    color: #b4cded;
     margin: 5px 15px;
     font-size: 1.5rem;
     transition: 0.2s linear;
@@ -66,7 +65,8 @@ section {
 
 .social-links i:hover {
     scale: 1.3;
-    color: black;
-    background-color: #077b32;
-    filter: drop-shadow(0 0 10px #077b32);
+    color: #0d1821;
+    background-color: #b4cded;
+    filter: drop-shadow(0 0 10px #b4cded);
+    border: 0.2rem solid #0d1821;
 }
