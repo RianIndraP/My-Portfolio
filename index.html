@@ -169,27 +169,44 @@
           </div>
           <!-- AKhir Alert -->
           <!-- Form -->
-          <form name="submit-to-google-sheet">
-            <div class="mb-3">
-              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
-              <!-- <label for="name" class="form-label">Nama Lengkap</label> -->
+          <form class="wave-group" name="submit-to-google-sheet">
+            <div class="name">
+              <input required="" type="text" class="input" id="name" name="nama">
               <span class="bar"></span>
-              <label class="label" for="name" class="form-label">
+              <label class="label">
                 <span class="label-char" style="--index: 0">N</span>
                 <span class="label-char" style="--index: 1">a</span>
                 <span class="label-char" style="--index: 2">m</span>
                 <span class="label-char" style="--index: 3">e</span>
               </label>
             </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+            <div class="email">
+              <input required="" type="email" class="input" id="email" name="email">
+              <span class="bar"></span>
+              <label class="label">
+                <span class="label-char" style="--index: 0">E</span>
+                <span class="label-char" style="--index: 1">m</span>
+                <span class="label-char" style="--index: 2">a</span>
+                <span class="label-char" style="--index: 3">i</span>
+                <span class="label-char" style="--index: 4">l</span>
+              </label>
             </div>
-            <div class="mb-3">
-              <label for="pesan" class="form-label">Pesan</label>
-              <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+            <div class="message">
+              <textarea required="" class="input" id="pesan" name="pesan" rows="3"></textarea>
+              <span class="bar"></span>
+              <label class="label">
+                <span class="label-char" style="--index: 0">P</span>
+                <span class="label-char" style="--index: 1">e</span>
+                <span class="label-char" style="--index: 2">n</span>
+                <span class="label-char" style="--index: 3">d</span>
+                <span class="label-char" style="--index: 4">a</span>
+                <span class="label-char" style="--index: 5">p</span>
+                <span class="label-char" style="--index: 6">a</span>
+                <span class="label-char" style="--index: 7">t</span>
+              </label>
             </div>
             <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
             <button class="btn btn-primary btn-loading d-none" type="button" disabled>
               <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
               <span role="status">Loading...</span>
